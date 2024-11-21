@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap&#39');
+
+.jk{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+.title h1{
+    font-size: 3rem;
+
+    
+}
+
+.title h2{
+    font-size: small;
+    color: rgba(255, 255, 255, 0.308);
+}
+
+.cards{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    gap: 20px;
+}
+
+.card{
+    width: 330px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow:  0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.text{
+    color: black;
+    position: relative;
+    top: 230px;
+    width: 250px;
+    margin-left: 13px;
+}
+
+p{
+    color: black;
+    position: relative;
+    top: 170px;
+    width: 200px;
+}
+
+.org{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    height: 50px;
+    padding: 20px 0px 20px 0px;
+    top: 100px;
+
+}
+
+
+.imagens img {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

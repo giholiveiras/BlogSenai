@@ -1,0 +1,20 @@
+<section class="jk">
+  <div class="title">
+    <h1 style="color: rgb(255, 4, 4);">Blog Senai</h1>
+  </div>
+  
+    <section class="cards">
+      <div *ngFor="let product of products" class="card">
+        <div class="imagens">
+          <img [src]="product.image_url" [alt]="product.name">
+        </div>
+        <h1 class="text">{{ product.name }}</h1>
+        <p>{{ product.description }}</p>
+        <div class="org">
+          <h1 style="color: rgb(0, 0, 0);">Read More</h1>
+
+        </div>
+      </div>
+  
+    </section>
+</section>
